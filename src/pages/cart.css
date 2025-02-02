@@ -1,0 +1,34 @@
+.truck-button {
+    --color: #fff;
+    --background: #2B3044;
+    --tick: #16BF78;
+    --base: #0D0F18;
+    --wheel: #2B3044;
+    --wheel-inner: #646B8C;
+    --wheel-dot: #fff;
+    --back: #6D58FF;
+    --back-inner: #362A89;
+    --back-inner-shadow:
+    #2D246B5ont: #A6ACCD;
+    --front-shadow: #535A79;
+    --front-light: #FFF8B1;
+    --window: #2B3044;
+    --window-shadow: #404660;
+    --street: #646B8C;
+    --street-fill: #404660;
+    --box: #DCB97A;
+    --box-shadow: #B89B66;
+    padding: 12px 0;
+    width: 172px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+}
+
+.toggle-button {
+    transition: transform 0.2s;
+  }
+  
+  .toggle-button.animate {
+    animation: slidein 0.5s forwards;
+  }
